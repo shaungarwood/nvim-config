@@ -4,10 +4,9 @@ return {
 
   opts = {
     signs = true,
-    merge_keywords = true,
+    merge_keywords = false,
     keywords = {
-      SHAUN = { icon = '', color = 'info' }
+      GOABOUT = { icon = '', color = 'info' }
     }
   }
-  -- the plugin settings are valid, but can't get "MYTODO" to work
 }
