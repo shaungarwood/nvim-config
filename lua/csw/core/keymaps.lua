@@ -10,7 +10,10 @@ local keymap = vim.keymap -- for conciseness
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 
 -- use <leader>b to insert binding.pry
--- keymap.set("n", "<leader>b", "<ESC>", { desc = "Exit insert mode with jk" })
+keymap.set("n", "<leader>b", "obinding.pry<CR><ESC>", { desc = "Insert binding.pry" })
+
+-- use <leader>t to insert todo (GOABOUT)
+keymap.set("n", "<leader>t", "o# GOABOUT: ", { desc = "Insert TODO and stay in insert mode" })
 
 -- clear search highlights
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
