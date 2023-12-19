@@ -11,7 +11,6 @@
 6. lazy load some plugins?
   - ruby files?
   - autotree when .git, otherwise don't
-7. scrolloff=8 (start scrolling when we're 8 lines away)
 8. move cheatsheet to here
 9. autosave
 10. gitsigns
