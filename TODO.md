@@ -11,7 +11,6 @@
 6. lazy load some plugins?
   - ruby files?
   - autotree when .git, otherwise don't
-8. move cheatsheet to here
 9. autosave
 10. gitsigns
 11. have nvim-tree persist across tabs
