@@ -15,6 +15,7 @@
 8. move cheatsheet to here
 9. autosave
 10. gitsigns
+11. have nvim-tree persist across tabs
 
 Add video of how it all works
 https://raw.githubusercontent.com/RRethy/nvim-treesitter-endwise/master/README.md
