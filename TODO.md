@@ -2,6 +2,7 @@
 
 1. add endwise style thing
 2. airline status bar? 
+ - lualine
 3. vim-rails? gf?
 4. ruby-lsp does not seem to map properly
 5. telescope
@@ -13,3 +14,7 @@
 7. scrolloff=8 (start scrolling when we're 8 lines away)
 8. move cheatsheet to here
 9. autosave
+10. gitsigns
+
+Add video of how it all works
+https://raw.githubusercontent.com/RRethy/nvim-treesitter-endwise/master/README.md
