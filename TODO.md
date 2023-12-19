@@ -14,6 +14,11 @@
 9. autosave
 10. gitsigns
 11. have nvim-tree persist across tabs
+11. nvim-tree
+ - persist across tabs
+ - can't seem to open in last focused window
+12. autosave
+ - only autosave if .git exists
 
 Add video of how it all works
 https://raw.githubusercontent.com/RRethy/nvim-treesitter-endwise/master/README.md
