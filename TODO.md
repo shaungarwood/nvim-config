@@ -3,7 +3,7 @@
 1. run a LUA linter
 2. vim-rails? gf?
 3. ruby-lsp does not seem to map properly
- - could try installing vscode and see if it behaves the same way
+ 1. could try installing vscode and see if it behaves the same way
  - could try soloargraph
  - could try using the ruby-lsp gem in a repo just like the video and see if i jump to the same place -> https://shopify.github.io/ruby-lsp/RubyLsp/Requests/Definition.html
  - getting an error from the ruby-lsp about not finding the Gemfile.lock ~/.local/state/nvim/lsp.log
