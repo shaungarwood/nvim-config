@@ -18,11 +18,9 @@ return {
         width = 35,
         relativenumber = true,
       },
+      hijack_cursor = true,
       -- change folder arrow icons
       renderer = {
-        indent_markers = {
-          enable = true,
-        },
         icons = {
           glyphs = {
             folder = {
@@ -44,9 +42,13 @@ return {
       },
       filters = {
         custom = { ".DS_Store" },
+        git_ignored = true
       },
-      git = {
-        ignore = true,
+      tab = {
+        sync = {
+          open = true,
+          close = true
+        }
       }
     })
 

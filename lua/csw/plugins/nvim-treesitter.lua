@@ -42,6 +42,7 @@ return {
           "json",
           "sql",
           "vim",
+          "vimdoc",
           "yaml",
         },
         incremental_selection = {
