@@ -9,6 +9,11 @@
     4. getting an error from the ruby-lsp about not finding the Gemfile.lock ~/.local/state/nvim/lsp.log
     5. also getting this: Client 3 quit with exit code 78 and signal 0
     6. try Mason 
+    7. https://github.com/search?q=nvim+sorbet&type=code
+    8. okay, need to research what rbi's are: https://github.com/sorbet/sorbet/issues/2496
+    9. interesting. there's a `.ruby-lsp` which automatically git ignored. has a copy of my gemfile, but includes ruby-lsp.
+    10. how to follow links to the suggestions like "do this", how do we find a link in rubydocs for that?
+    11. seems to be using rubocop, they suggest single quotes over double. can i switch it to standardRB?
 4. telescope
     1. look in .bundle, not in .git, tmp, log
     2. search in subdirectory?
@@ -20,6 +25,10 @@
     3. close when buffer closes
 7. autosave
     1. only autosave if .git exists
+8. neoconf.vim
+    1. this would be nice for deciding what joplin uses
+    1. autosave, tmux nav, jk shortcut
+9. dashboard?
 
 Check for plugin issues:
 ```
