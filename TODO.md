@@ -17,7 +17,6 @@
 4. telescope
     1. look in .bundle, not in .git, tmp, log
     2. search in subdirectory?
-    3. switch to ,, and ,.
 5. gitsigns
 6. nvim-tree
     1. can't seem to open in last focused window
