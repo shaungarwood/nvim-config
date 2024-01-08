@@ -20,6 +20,8 @@
     1. autosave, tmux nav, jk shortcut
 9. dashboard?
 
+https://github.com/piersolenski/wtf.nvim
+
 Check for plugin issues:
 ```
 :checkhealth
