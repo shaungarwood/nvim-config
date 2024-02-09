@@ -1,3 +1,5 @@
+vim.g.mapleader = ","
+
 local opt = vim.opt   -- for conciseness
 
 -- line numbers
