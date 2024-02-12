@@ -1,10 +1,10 @@
 return {
-  "Pocco81/auto-save.nvim",
-
-  config = function()
-    require("auto-save").setup {
-      -- your config goes here
-      -- or just leave it empty :)
+  "okuuva/auto-save.nvim",
+  cmd = "ASToggle", -- optional for lazy loading on command
+  event = { "InsertLeave", "TextChanged" }, -- optional for lazy loading on trigger events
+  opts = {
+    execution_message = {
+      enabled = false
     }
-  end
+  }
 }
