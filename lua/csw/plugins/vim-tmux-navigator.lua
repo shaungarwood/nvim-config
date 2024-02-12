@@ -1,5 +1,6 @@
 return {
   "alexghergh/nvim-tmux-navigation",
+  lazy = false,
   config = function()
     local nvim_tmux_navigation = require("nvim-tmux-navigation")
     nvim_tmux_navigation.setup {

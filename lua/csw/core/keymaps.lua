@@ -1,5 +1,7 @@
 -- set leader key to space
-vim.g.mapleader = ","
+-- vim.g.mapleader = ","
+-- vim.keymap.set("n", "<localleader>", '<cmd>lua require("which-key").show("\\\\")<cr>')
+-- vim.g.mapleader = ","
 
 local keymap = vim.keymap -- for conciseness
 
