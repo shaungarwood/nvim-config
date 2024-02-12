@@ -40,6 +40,8 @@ return {
       on_attach = function(client, buffer)
         print("LSP started.");
 
+        vim.diagnostic.disable()
+
         key_bindings(client)
         setup_diagnostics(client, buffer)
       end
