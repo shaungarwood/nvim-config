@@ -29,3 +29,6 @@ return {
     },
   },
 }
+
+-- had to run this to get it to work on mac
+-- python3 -m pip install --user --upgrade python-dotenv requests pynvim==0.5.0 prompt-toolkit
