@@ -19,6 +19,7 @@
     1. this would be nice for deciding what joplin uses
     1. autosave, tmux nav, jk shortcut
 9. dashboard?
+10. add emoji picker
 
 https://github.com/piersolenski/wtf.nvim
 
